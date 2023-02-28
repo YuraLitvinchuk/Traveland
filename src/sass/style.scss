@@ -1,0 +1,22 @@
+@import 'libs/resetVinch.min.scss';
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Roboto:wght@400;500&display=swap');
+
+@import 'base/variables';
+
+*{
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@import 'blocks/promo';
+@import 'blocks/location';
+@import 'blocks/offers';

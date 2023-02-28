@@ -1,0 +1,77 @@
+.promo{
+    min-height: 100vh;
+    background: url('../img/mainBackround.png') no-repeat 50%/cover;
+    padding: 50px 0px 244px 0px;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    &__logo{
+        a{
+            font-family: 'Gelasio';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: 0.06em;
+            color: #FFF;
+        }
+    }
+    &__navigation-menu{
+        display: flex;
+        li{
+            margin-left: 50px;
+            a{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 150%;
+                color: #FFFFFF;
+                &:hover{
+                    color:$main-color;
+                    transition: 1s ease;
+                }
+            }
+        }
+    }
+    &__btn{
+        background: $main-color;
+        border-radius: 5px;
+        padding: 14px 35px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFF;
+        &:hover{
+            background: #fff;
+            color:$main-color;
+            transition: 1s ease;
+        }
+    }
+    &__title{
+        max-width: 800px;
+        margin-top: 210px;
+        font-family: 'Gelasio';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+    &__description{
+        max-width: 458px;
+        margin: 30px 0px 40px 0px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+}
