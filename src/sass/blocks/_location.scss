@@ -34,7 +34,10 @@
         border-radius: 10px 10px 0px 0px;
     }
     &__block{
-        margin-right: 30px;
+        margin-right: 25px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
         img{
             width: 360px;
             height: 331px;
