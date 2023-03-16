@@ -5,7 +5,7 @@
 @import 'base/variables';
 
 *{
-    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -22,3 +22,5 @@ body{
 @import 'blocks/location';
 @import 'blocks/offers';
 @import 'blocks/blog';
+@import 'blocks/footer';
+@import 'blocks/media';
