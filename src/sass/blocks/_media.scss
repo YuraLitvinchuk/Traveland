@@ -18,10 +18,153 @@
         }
     }
    }
+   .offers{
+    &__cards{
+        flex-wrap: wrap;
+        gap: 20px 0px;
+    }
+}
+}
+
+@media(max-width: 1120px) {
+    .blog{
+        &__cards{
+            grid-template-columns: 1fr;
+        }
+        &__card.main{
+            img{
+                width: 100%;
+            }
+            display: grid;
+            grid-template-columns: 263px auto;
+            gap: 30px;
+            img{
+                width: 263px;
+                height: 100%;
+            }
+            h3{
+                margin-top: 0px;
+            }
+        }
+    }
 }
 
 @media(max-width: 992px){
     .container{
         max-width: 680px;
+    }
+    .promo{
+        padding-bottom: 122px;
+        &__navigation{
+            display: none;
+        }
+        .burger{
+            span{
+                display: block;
+            }
+        }
+        h1{
+            margin-top: 110px;
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .blog, .footer, .location, .offers{
+        margin-top: 7rem;
+        h2{
+            font-size: 2rem;
+        }
+        h3{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .location{
+        &__block{
+            margin-right: 0px;
+        }
+    }
+    .footer{
+        &__subscribe{
+            margin-top: 20px;
+            form{
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        max-width: 500px;
+    }
+}
+
+@media(max-width:576px){
+    .blog, .footer, .location, .offers{
+        margin-top: 4rem;
+    }
+    .promo{
+        padding-left: 10px;
+        padding-right: 10px;
+        h1{
+            font-size: 2.5rem;
+            margin-top: 55px;
+        }
+        .burger{
+            margin: 0px 20px;
+        }
+        &__btn{
+            margin: 0px;
+        }
+    }
+    .location{
+        padding: 0px 10px;
+    }
+    .offers{
+        padding: 0px 10px;
+    }
+    .blog{
+        padding: 0px 10px;
+        &__card.main, &__card.secondary{
+            grid-template-columns: 1fr;
+            img{
+                width: 100%;
+            }
+            h3,p,a{
+                text-align: center;
+            }
+        }
+    }
+    .footer{
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0px;
+        }
+        &__social{
+            width:100%;
+            &-contact{
+                margin-top: 10px;
+            }
+        }
+        &__services{
+            width: 100%;
+        }
+        &__privacy{
+            width: 100%;
+        }
+        &__subscribe{
+            form{
+                #submit{
+                    margin-left: 0px;
+                }
+            }
+        }
+
     }
 }

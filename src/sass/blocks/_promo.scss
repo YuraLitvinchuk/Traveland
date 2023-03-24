@@ -1,12 +1,13 @@
 .promo{
     min-height: 100vh;
-    background: url('../img/mainBackround.png') no-repeat 50%/cover;
+    background: url('../img/mainBackround.png') no-repeat 100%/cover;
     padding: 50px 0px 244px 0px;
+    position: relative;
     &__header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
     &__logo{
         a{
@@ -73,5 +74,18 @@
         line-height: 160%;
         color: #FFFFFF;
         opacity: 0.6;
+    }
+    .homePage{
+        position: fixed;
+        bottom: 60px;
+        right: 20px;
+        z-index: 20;
+        a{
+            cursor: pointer;
+            svg path:hover{
+                transition: 1s  ease;
+                fill:#000;
+            }
+        }
     }
 }

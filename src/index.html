@@ -4,58 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
     <title>Traveland</title>
+    <meta name="title" content="Traveland">
+    <meta name="description" content="If you like to travel, welcome to our page!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Traveland">
+    <meta property="og:description" content="If you like to travel, welcome to our page!">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Traveland">
+    <meta property="twitter:description" content="If you like to travel, welcome to our page!">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+     <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    
-    <main class="promo">
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__close">
+                <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z" fill="white"></path></svg>
+            </div>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="#home">Home</a></li>
+                    <li class="menu__link"><a href="#location">Location</a></li>
+                    <li class="menu__link"><a href="#blog">Blog</a></li>
+                    <li class="menu__link"><a href="#about">About</a></li>
+                    <li class="menu__link"><a href="#about">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
+    <main class="promo" id="home">
         <div class="container">
             <header class="promo__header">
                 <div class="promo__logo">
                     <a href="#">Traveland</a>
                 </div>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <nav class="promo__navigation">
                     <ul class="promo__navigation-menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Location</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li class="wow animate__animated animate__fadeInDown"><a href="#home">Home</a></li>
+                        <li class="wow animate__animated animate__fadeInUp"><a href="#location">Location</a></li>
+                        <li class="wow animate__animated animate__fadeInDown"><a href="#blog">Blog</a></li>
+                        <li class="wow animate__animated animate__fadeInUp"><a href="#about">About</a></li>
+                        <li class="wow animate__animated animate__fadeInDown"><a href="#about">Contact</a></li>
                     </ul>
                 </nav>
                 <button class="promo__btn">
                     Booking now
                 </button>
             </header>
-            <h1 class="promo__title">Railtrips To Here, There And Everywhere!</h1>
-            <p class="promo__description">We all wish to start our year the best way possible and also according to a common belief if you have a great start to your.</p>
+            <h1 class="promo__title wow animate__animated animate__flipInX">Railtrips To Here, There And Everywhere!</h1>
+            <p class="promo__description wow animate__animated animate__flipInX">We all wish to start our year the best way possible and also according to a common belief if you have a great start to your.</p>
             <button class="promo__btn">
                 Explore more
             </button>
+        </div>
+        <div class="homePage" hidden>
+            <a href="#home">
+                <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.5 35H27.5V24.5L31.5 28.5L35 25L25 15L15 25L18.5 28.5L22.5 24.5V35ZM25 50C21.5417 50 18.2917 49.3433 15.25 48.03C12.2083 46.7167 9.5625 44.9358 7.3125 42.6875C5.0625 40.4375 3.28167 37.7917 1.97 34.75C0.658334 31.7083 0.00166667 28.4583 0 25C0 21.5417 0.656667 18.2917 1.97 15.25C3.28333 12.2083 5.06417 9.5625 7.3125 7.3125C9.5625 5.0625 12.2083 3.28167 15.25 1.97C18.2917 0.658334 21.5417 0.00166667 25 0C28.4583 0 31.7083 0.656667 34.75 1.97C37.7917 3.28333 40.4375 5.06417 42.6875 7.3125C44.9375 9.5625 46.7192 12.2083 48.0325 15.25C49.3458 18.2917 50.0017 21.5417 50 25C50 28.4583 49.3433 31.7083 48.03 34.75C46.7167 37.7917 44.9358 40.4375 42.6875 42.6875C40.4375 44.9375 37.7917 46.7192 34.75 48.0325C31.7083 49.3458 28.4583 50.0017 25 50Z" fill="#C9453B"/>
+                </svg>
+            </a>
         </div>
     </main>
 
     <section class="location" id="location">
         <div class="container">
-            <h2 class="location__title">Popular Location</h2>
-            <p class="location__description">For every one of us, travel came first. We have spent years living as nomads, pioneers, and voyagers— from island hopping in the</p>
+            <h2 class="location__title wow animate__animated animate__fadeInUp">Popular Location</h2>
+            <p class="location__description wow animate__animated animate__fadeInUp">For every one of us, travel came first. We have spent years living as nomads, pioneers, and voyagers— from island hopping in the</p>
             <div class="location__cards">
-                <div class="location__block">
+                <div class="location__block wow animate__animated animate__fadeIn">
                     <div class="location__img">
                         <img src="./img/location/Turkey.jpg" alt="Turkey">
                     </div>
                     <h3>Istanbul, Turkey</h3>
                     <p>Istanbul is a major city in Turkey that straddles Europe.</p>
                 </div>
-                <div class="location__block">
+                <div class="location__block wow animate__animated animate__fadeIn">
                     <div class="location__img">
                         <img src="./img/location/KualaLumpur.jpg" alt="KualaLumpur">
                     </div>
                     <h3>Kuala Lumpur, malaysia</h3>
                     <p>A 272-step long trek leads you to this century.</p>
                 </div>
-                <div class="location__block">
+                <div class="location__block wow animate__animated animate__fadeIn">
                     <div class="location__img">
                         <img src="./img/location/Seoul.jpg" alt="Seoul">
                     </div>
@@ -67,8 +134,8 @@
     </section>
 
     <section class="offers">
-        <h2 class="offers__title">Special Offers</h2>
-        <p class="offers__description">With the New Year comes a refreshing sense of wanderlust, a longing in our souls to escape to warmer climates</p>
+        <h2 class="offers__title wow animate__animated animate__fadeInUp">Special Offers</h2>
+        <p class="offers__description wow animate__animated animate__fadeInUp">With the New Year comes a refreshing sense of wanderlust, a longing in our souls to escape to warmer climates</p>
         <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
@@ -441,7 +508,7 @@
                 </div>
 
             </div> <!--swiper-wrapper-->        
-        </div> <!--swiper---> 
+        </div> <!--swiper--> 
         <div class="swiper__navigation">
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev">
@@ -461,20 +528,22 @@
         </div>
     </section>
 
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="container">
-            <h2 class="blog__title">From Blog & News</h2>
-            <p class="blog__description">Welcome to Community Conversations, a new interview series featuring Intrepid travellers, creatives and activists in our community.</p>
+            <h2 class="blog__title wow animate__animated animate__fadeInUp">From Blog & News</h2>
+            <p class="blog__description wow animate__animated animate__fadeInUp">Welcome to Community Conversations, a new interview series featuring Intrepid travellers, creatives and activists in our community.</p>
             <div class="blog__cards">
-                <div class="blog__card main">
+                <div class="blog__card main wow animate__animated animate__fadeIn">
                     <div class="blog__card-img">
                         <img src="./img/blog/canada-ontario-niagara-falls.jpg" alt="Niagara">
                     </div>
-                    <h3 class="blog__card-title">Banff National Park</h3>
-                    <p class="blog__card-description">Banff National Park lies in the heart of the majestic Rocky Mountains in the province of Alberta, and showcases some of Canada's most beautiful scenery. Turquoise-colored lakes, snow-capped peaks, and glaciers are all easily accessible </p>
-                    <a href="mailto:@thomasalva_adison">@thomasalva_adison</a>
+                    <div class="blog__card-description">
+                        <h3>Banff National Park</h3>
+                        <p>Banff National Park lies in the heart of the majestic Rocky Mountains in the province of Alberta, and showcases some of Canada's most beautiful scenery. Turquoise-colored lakes, snow-capped peaks, and glaciers are all easily accessible </p>
+                        <a href="mailto:@thomasalva_adison">@thomasalva_adison</a>
+                    </div>
                 </div>
-                <div class="blog__card secondary">
+                <div class="blog__card secondary wow animate__animated animate__fadeIn">
                     <div class="blog__card-img item">
                         <img src="./img/blog/hiroshima-japan.jpg" alt="Hiroshima">
                     </div>
@@ -484,7 +553,7 @@
                         <a href="mailto:@shova_bd88">@shova_bd88</a>
                     </div>
                 </div>
-                <div class="blog__card secondary">
+                <div class="blog__card secondary wow animate__animated animate__fadeIn">
                     <div class="blog__card-img">
                         <img src="./img/blog/india-top-attractions-varanasi.jpg" alt="Varannasi">
                     </div>
@@ -494,7 +563,7 @@
                         <a href="mailto:@shova_bd88">@adem/smith</a>
                     </div>
                 </div>
-                <div class="blog__card secondary">
+                <div class="blog__card secondary wow animate__animated animate__fadeIn">
                     <div class="blog__card-img">
                         <img src="./img/blog/Naltar-lake-pakistan.jpg" alt="Naltar">
                     </div>
@@ -508,7 +577,7 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="about">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__social">
@@ -521,13 +590,13 @@
                         <a href="mailto:@shovasatkhira88.com">@shovasatkhira88.com</a>
                     </div>
                     <div class="footer__social-icons">
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/" target="_blank">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M17.5 0H2.5C1.12083 0 0 1.12083 0 2.5V17.5C0 18.8783 1.12083 20 2.5 20H17.5C18.8783 20 20 18.8783 20 17.5V2.5C20 1.12083 18.8783 0 17.5 0Z" fill="#3B5999"/>
                             <path d="M13.75 10V7.5C13.75 6.81 14.31 6.875 15 6.875H16.25V3.75H13.75C11.6783 3.75 10 5.42833 10 7.5V10H7.5V13.125H10V20H13.75V13.125H15.625L16.875 10H13.75Z" fill="white"/>
                             </svg>
                         </a>
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/" target="_blank">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.6576 3.57713C19.4756 1.87157 18.1285 0.524271 16.4227 0.342394C12.1451 -0.114131 7.85492 -0.114131 3.57742 0.342394C1.87164 0.524424 0.524445 1.87157 0.342407 3.57713C-0.114136 7.85445 -0.114136 12.1446 0.342407 16.4219C0.524445 18.1276 1.87164 19.4748 3.57727 19.6568C7.85477 20.1133 12.1451 20.1133 16.4227 19.6568C18.1285 19.4748 19.4756 18.1276 19.6576 16.4219C20.1141 12.1446 20.1141 7.85461 19.6576 3.57713Z" fill="url(#paint0_radial_1_168)"/>
                             <path d="M18.5699 4.30046C18.4085 2.787 17.2131 1.59152 15.6994 1.42993C11.9037 1.02498 8.0966 1.02498 4.30083 1.42993C2.78731 1.59152 1.59178 2.787 1.43019 4.30046C1.02522 8.09608 1.02522 11.903 1.43019 15.6985C1.59178 17.2121 2.78731 18.4076 4.30083 18.569C8.0966 18.9741 11.9037 18.9741 15.6993 18.569C17.213 18.4076 18.4085 17.2121 18.5699 15.6985C18.9751 11.903 18.9751 8.09608 18.5699 4.30046Z" fill="url(#paint1_linear_1_168)"/>
@@ -542,7 +611,7 @@
                             <path d="M14.1526 6.64935C14.1526 7.07017 13.8114 7.41135 13.3906 7.41135C12.9698 7.41135 12.6284 7.07017 12.6284 6.64935C12.6284 6.22838 12.9698 5.88721 13.3906 5.88721C13.8114 5.88721 14.1526 6.22838 14.1526 6.64935Z" fill="white"/>
                             <defs>
                             <radialGradient id="paint0_radial_1_168" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(4.09989 17.4777) scale(22.0565 22.0556)">
-                            <stop stop-color="#FAE100"/>
+                            <stop offset="0" stop-color="#FAE100"/>
                             <stop offset="0.0544" stop-color="#FADC04"/>
                             <stop offset="0.1167" stop-color="#FBCE0E"/>
                             <stop offset="0.1829" stop-color="#FCB720"/>
@@ -552,36 +621,36 @@
                             <stop offset="1" stop-color="#6C1CD1"/>
                             </radialGradient>
                             <linearGradient id="paint1_linear_1_168" x1="7.67095" y1="8.68942" x2="-26.2108" y2="-10.3698" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#A1B5D8" stop-opacity="0"/>
+                            <stop offset="0" stop-color="#A1B5D8" stop-opacity="0"/>
                             <stop offset="0.3094" stop-color="#90A2BD" stop-opacity="0.309804"/>
                             <stop offset="0.7554" stop-color="#7C8B9C" stop-opacity="0.756863"/>
                             <stop offset="1" stop-color="#748290"/>
                             </linearGradient>
                             <linearGradient id="paint2_linear_1_168" x1="9.99965" y1="17.6535" x2="9.99965" y2="20.7708" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#FAE100" stop-opacity="0"/>
+                            <stop offset="0" stop-color="#FAE100" stop-opacity="0"/>
                             <stop offset="0.3068" stop-color="#FCA800" stop-opacity="0.305882"/>
                             <stop offset="0.6275" stop-color="#FE7300" stop-opacity="0.627451"/>
                             <stop offset="0.8685" stop-color="#FF5200" stop-opacity="0.866667"/>
                             <stop offset="1" stop-color="#FF4500"/>
                             </linearGradient>
                             <linearGradient id="paint3_linear_1_168" x1="8.86211" y1="8.83426" x2="3.91263" y2="3.88458" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#833AB4" stop-opacity="0"/>
+                            <stop offset="0" stop-color="#833AB4" stop-opacity="0"/>
                             <stop offset="1" stop-color="#833AB4"/>
                             </linearGradient>
                             <linearGradient id="paint4_linear_1_168" x1="13.7069" y1="18.2906" x2="11.2366" y2="6.64455" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#833AB4" stop-opacity="0"/>
+                            <stop offset="0" stop-color="#833AB4" stop-opacity="0"/>
                             <stop offset="1" stop-color="#833AB4"/>
                             </linearGradient>
                             <linearGradient id="paint5_linear_1_168" x1="14.6474" y1="14.6471" x2="4.72496" y2="4.72424" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#833AB4" stop-opacity="0"/>
+                            <stop offset="0" stop-color="#833AB4" stop-opacity="0"/>
                             <stop offset="1" stop-color="#833AB4"/>
                             </linearGradient>
                             <linearGradient id="paint6_linear_1_168" x1="15.3832" y1="8.64255" x2="12.102" y2="5.36127" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#833AB4" stop-opacity="0"/>
+                            <stop offset="0" stop-color="#833AB4" stop-opacity="0"/>
                             <stop offset="1" stop-color="#833AB4"/>
                             </linearGradient>
                             <linearGradient id="paint7_linear_1_168" x1="13.9709" y1="6.05708" x2="5.8808" y2="14.1475" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#833AB4"/>
+                            <stop offset="0" stop-color="#833AB4"/>
                             <stop offset="0.0922" stop-color="#9C3495"/>
                             <stop offset="0.2927" stop-color="#DC2546"/>
                             <stop offset="0.392" stop-color="#FD1D1D"/>
@@ -597,7 +666,7 @@
                             </svg>
                         </a>
 
-                        <a href="https://twitter.com">
+                        <a href="https://twitter.com" target="_blank">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.4227 19.6576C12.1452 20.1141 7.85477 20.1141 3.57727 19.6576C1.87164 19.4756 0.524445 18.1284 0.342407 16.4226C-0.114136 12.1451 -0.114136 7.85477 0.342407 3.57727C0.524445 1.87164 1.87164 0.524445 3.57727 0.342407C7.85477 -0.114136 12.1451 -0.114136 16.4226 0.342407C18.1284 0.524445 19.4756 1.87164 19.6576 3.57727C20.1141 7.85477 20.1141 12.1451 19.6576 16.4226C19.4756 18.1284 18.1285 19.4756 16.4227 19.6576Z" fill="url(#paint0_linear_1_184)"/>
                             <path d="M18.5699 4.30058C18.4085 2.78706 17.2131 1.59154 15.6994 1.42995C11.9037 1.02498 8.0966 1.02498 4.30083 1.42995C2.78731 1.59154 1.59178 2.78706 1.43019 4.30058C1.02522 8.09636 1.02522 11.9034 1.43019 15.6991C1.59178 17.2127 2.78731 18.4082 4.30083 18.5697C8.0966 18.9748 11.9037 18.9748 15.6993 18.5697C17.213 18.4082 18.4085 17.2127 18.5699 15.6991C18.9751 11.9034 18.9751 8.09636 18.5699 4.30058Z" fill="url(#paint1_linear_1_184)"/>
@@ -606,26 +675,26 @@
                             <path d="M16.1984 6.14709C15.7559 6.37857 15.0894 6.48553 14.8685 6.51636C14.8666 6.50568 14.8648 6.49545 14.863 6.48523C15.6142 6.0206 15.8441 5.14581 15.8441 5.14581C15.3789 5.41177 14.9689 5.55933 14.66 5.64111C14.4864 5.68765 14.3446 5.71283 14.2427 5.72687C13.7746 5.24683 13.1209 4.94897 12.3973 4.94897C10.9737 4.94897 9.81934 6.103 9.81934 7.5271C9.81934 7.57837 9.82071 7.62933 9.82407 7.67984C9.83093 7.80328 9.84665 7.92459 9.87091 8.04254C9.18182 8.03232 6.69449 7.82098 4.63333 5.42673C4.63333 5.42673 3.48557 7.42929 5.41519 8.79724C5.41519 8.79724 4.63333 8.77283 4.21829 8.47971C4.21829 8.47971 4.09622 10.4093 6.31866 11.0197C6.31866 11.0197 5.53726 11.2153 5.14618 11.0443C5.14618 11.0443 5.53711 12.705 7.491 12.8274C7.491 12.8274 6.08963 14.1104 3.80127 13.9257C4.92676 14.6383 6.26114 15.0508 7.6918 15.0508C11.7145 15.0508 14.9756 11.7898 14.9756 7.76712C14.9756 7.71692 14.9751 7.66672 14.9741 7.61652C14.9751 7.58676 14.9756 7.55716 14.9756 7.5271C14.9756 7.5062 14.9751 7.48529 14.9748 7.46439C15.7185 6.96878 16.1984 6.14709 16.1984 6.14709Z" fill="white"/>
                             <defs>
                             <linearGradient id="paint0_linear_1_184" x1="6.64039" y1="2.81196" x2="11.699" y2="13.635" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#00C3FF"/>
+                            <stop offset="0" stop-color="#00C3FF"/>
                             <stop offset="1" stop-color="#00B0ED"/>
                             </linearGradient>
                             <linearGradient id="paint1_linear_1_184" x1="14.2299" y1="12.2689" x2="-14.8275" y2="-3.31855" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#00B0ED" stop-opacity="0"/>
+                            <stop offset="0" stop-color="#00B0ED" stop-opacity="0"/>
                             <stop offset="1" stop-color="#00A2CE"/>
                             </linearGradient>
                             <linearGradient id="paint2_linear_1_184" x1="10.0001" y1="17.0853" x2="10.0001" y2="19.706" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#00B0ED" stop-opacity="0"/>
+                            <stop offset="0" stop-color="#00B0ED" stop-opacity="0"/>
                             <stop offset="1" stop-color="#00A2CE"/>
                             </linearGradient>
                             <linearGradient id="paint3_linear_1_184" x1="19.1182" y1="18.8309" x2="9.34759" y2="9.06029" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#00B0ED" stop-opacity="0"/>
+                            <stop offset="0" stop-color="#00B0ED" stop-opacity="0"/>
                             <stop offset="1" stop-color="#00A2CE"/>
                             </linearGradient>
                             </defs>
                             </svg>
                         </a>
                                 
-                        <a href="https://www.google.com">
+                        <a href="https://www.google.com" target="_blank">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#273B7A"/>
                             <path d="M19.7748 12.1154L13.6607 6.00122L8.5633 6.4081L5.95947 8.78505L6.29361 13.9556L12.0828 19.7817C15.9229 18.968 18.9485 15.9508 19.7748 12.1154Z" fill="#121149"/>
@@ -667,6 +736,7 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.0/swiper-bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

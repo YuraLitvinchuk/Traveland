@@ -6,10 +6,12 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
     background-color: #fff;
+    position: relative;
 }
 
 .container{
@@ -24,3 +26,4 @@ body{
 @import 'blocks/blog';
 @import 'blocks/footer';
 @import 'blocks/media';
+@import 'blocks/menu';
